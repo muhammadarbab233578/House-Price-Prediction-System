@@ -73,7 +73,7 @@ print("\n===== TRAINING RANDOM FOREST =====")
 
 rf_model = RandomForestRegressor(
     n_estimators=100,
-     max_depth=10,
+    max_depth=10,
     random_state=42
 )
 
